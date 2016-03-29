@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = function (date, dateCompare) {
+function isBefore (date, dateCompare) {
   var d = date instanceof Date ? date : new Date(date)
   var dc = dateCompare || new Date()
 
@@ -12,3 +12,5 @@ module.exports = function (date, dateCompare) {
 
   return d.valueOf() < dc.valueOf()
 }
+
+module.exports = isBefore
