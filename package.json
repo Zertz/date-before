@@ -1,6 +1,6 @@
 {
   "name": "date-before",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine if a date is before another",
   "license": "MIT",
   "repository": "Zertz/date-before",
