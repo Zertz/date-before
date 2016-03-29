@@ -1,0 +1,31 @@
+{
+  "name": "date-before",
+  "version": "1.0.0",
+  "description": "Determine if a date is before another",
+  "license": "MIT",
+  "repository": "Zertz/date-before",
+  "author": {
+    "name": "Pier-Luc Gendreau",
+    "url": "github.com/Zertz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && ava --verbose",
+    "prepublish": "npm test"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "keywords": [
+    "date",
+    "before"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "standard": "^6.0.0"
+  }
+}
